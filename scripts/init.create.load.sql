@@ -203,22 +203,4 @@ $$;
 
 COMMIT;
 
---View counts of each table
 
-SELECT 'orders' as table_name, COUNT(*) FROM bronze.orders
-UNION ALL
-SELECT 'products', COUNT(*) FROM bronze.products
-UNION ALL
-SELECT 'order_items', COUNT(*) FROM bronze.order_items
-UNION ALL
-SELECT 'customers', COUNT(*) FROM bronze.customers
-UNION ALL
-SELECT 'geolocation', COUNT(*) FROM bronze.geolocation
-UNION ALL
-SELECT 'order_payment', COUNT(*) FROM bronze.order_payment
-UNION ALL
-SELECT 'order_reviews', COUNT(*) FROM bronze.order_reviews
-UNION ALL
-SELECT 'product_category', COUNT(*) FROM bronze.product_category
-UNION ALL
-SELECT 'sellers', COUNT(*) FROM bronze.sellers;
