@@ -3,7 +3,8 @@
 This script creates the Stored Procedure to load the BRONZE layer of the Olist Dataset.
 It includes auditing for row counts, execution time, and error handling for each table.
 
-To execute: CALL bronze.load_bronze();
+To execute: 
+CALL bronze.load_bronze();
 --------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------*/
 
