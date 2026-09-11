@@ -126,7 +126,7 @@ This is useful if something breaks—you can see exactly where.
 ## Dashboard
 
 ### Overview
-![Olist Dashboard Cover](/docs/dashboard-cover.png)
+![Olist Dashboard Cover](/docs/olist_dashboard_cover.png)
 
 **Key Metrics (as of Aug 2018):**
 - **R$15.8M** Gross Revenue
